@@ -1,0 +1,23 @@
+{
+    "extends": "@smol-code/tsconfig",
+    "compilerOptions": {
+        "paths": {
+            "@root/*": [
+                "../*"
+            ],
+            "@util/*": [
+                "util/*"
+            ]
+        },
+    },
+    "include": [
+        "**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+        "tmp",
+        "logs",
+        "test"
+    ],
+}
